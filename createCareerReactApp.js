@@ -28,8 +28,8 @@ function clone(projectName) {
 
 function init() {
   program
-    .name("create-kdesign-app")
-    .description("CLI to create kdesign App")
+    .name("create-Career-React-app")
+    .description("CLI to create Career App")
     .usage("<projectName> | [options]")
     .version(pkg.version);
 
