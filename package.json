@@ -1,11 +1,11 @@
 {
   "name": "create-career-react-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "commonjs",
   "bin": {
-    "create-react-app": "./index.js"
+    "create-career-react-app": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
