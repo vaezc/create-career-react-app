@@ -17,7 +17,7 @@ function clone(projectName) {
       console.log(error);
     } else {
       exec(`rm -rf ${projectName}/.git`);
-      spinner.succeed("Career React App is ready！");
+      spinner.succeed("Career React App is ready!");
 
       console.log("\n");
       console.log(`cd ${projectName} && npm install`);
