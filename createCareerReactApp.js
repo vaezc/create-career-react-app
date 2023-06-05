@@ -16,6 +16,7 @@ function clone(projectName) {
   exec(`git clone ${url} ${projectName}`, (error) => {
     if (error) {
       console.log(error);
+      spinner.fail(chalk.red("Failed to initialize Career React App"));
     } else {
       exec(`rm -rf ${projectName}/.git`);
       spinner.succeed(chalk.green("Career React App is ready!"));
