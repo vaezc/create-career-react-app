@@ -17,10 +17,10 @@ function clone(projectName) {
       console.log(error);
     } else {
       exec(`rm -rf ${projectName}/.git`);
-      spinner.succeed("KDesign App is ready！");
+      spinner.succeed("Career React App is ready！");
 
       console.log("\n");
-      console.log(`cd ${projectName} && npm install`.cyan);
+      console.log(`cd ${projectName} && npm install`);
       console.log(`Quick start developing`);
     }
   });
